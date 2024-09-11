@@ -1,0 +1,124 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Overall Layout */
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    background: transparent;
+}
+
+.form-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Grid layout for registration form */
+.register-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    justify-items: center;
+}
+
+/* Header styling */
+h2 {
+    font-weight: 500;
+    color: #333;
+    grid-column: span 2; /* Spans across both columns for registration */
+}
+
+/* Input Group Styling */
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Includes padding in the width calculation */
+    margin-bottom: 15px; /* Adds space between input fields */
+}
+
+.input-group i {
+    color: #6e8efb;
+    margin-right: 10px;
+}
+
+.input-group input, .input-group select, .input-group input[type="date"] {
+    border: none;
+    outline: none;
+    background: transparent;
+    /* width: calc(100% - 30px);   */
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+/* Button Styling */
+.btn {
+    width: 100%;
+    padding: 15px; /* Increased padding for a better button size */
+    background: #6e8efb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+}
+
+/* Switch between login and register */
+.switch {
+    font-size: 14px;
+    color: #333;
+}
+
+.switch a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switch a:hover {
+    text-decoration: underline;
+}
+
+/* Ensuring button and switch span two columns in registration form */
+.register-form .btn, .register-form .switch {
+    grid-column: span 2;
+}
