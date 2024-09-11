@@ -10,8 +10,9 @@ A modern, responsive login and registration form designed with a clean UI and li
 - **Best Font Styles**: Uses Google Fonts for a refined typography experience.
 
 ## Screenshots
-
+Login Form:
 ![Login Form](https://github.com/aneesh-acharyeah/responsive-login-register-form/blob/main/login.png)
+Registration Form:
 ![Registration Form](https://github.com/aneesh-acharyeah/responsive-login-register-form/blob/main/register.png)
 
 ## Getting Started
