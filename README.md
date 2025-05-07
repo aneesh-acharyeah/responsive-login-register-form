@@ -21,4 +21,4 @@ To use this project locally, follow these steps:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/responsive-login-register-form.git
+   git clone https://github.com/aneesh-acharyeah/responsive-login-register-form.git
