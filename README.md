@@ -2,7 +2,7 @@
 
 A modern, responsive login and registration form designed with a clean UI and linear gradient colors. This project showcases a simple, yet elegant form layout with icons, suitable for use in various web applications.
 
-## Features
+## Features 
 
 - **Responsive Design**: Adjusts gracefully to different screen sizes and devices.
 - **Modern UI**: Utilizes linear gradient colors and iconography for a sleek appearance.
